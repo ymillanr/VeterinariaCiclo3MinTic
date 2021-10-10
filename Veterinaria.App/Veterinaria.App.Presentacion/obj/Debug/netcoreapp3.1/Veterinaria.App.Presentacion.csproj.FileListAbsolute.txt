@@ -35,3 +35,12 @@ C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMis
 C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.pdb
 C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.genruntimeconfig.cache
 C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.csproj.CopyComplete
+C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminAdministrador.cshtml.g.cs
+C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminVeterinario.cshtml.g.cs
+C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Login\Login.cshtml.g.cs
+C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminMascota.cshtml.g.cs
+C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminCita.cshtml.g.cs
+C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminHistoriaClinica.cshtml.g.cs
+C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminPropietario.cshtml.g.cs
+C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminSugerenciaDeCuidado.cshtml.g.cs
+C:\Users\yeiso\OneDrive\Documentos\Mision TIC\Desarrollo de Software\ProyectoMisionTIC\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\AdminVacuna.cshtml.g.cs

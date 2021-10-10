@@ -11,6 +11,7 @@ namespace Veterinaria.App.Presentacion.Pages
     {
         public void OnGet()
         {
+            ViewData["tituloDeLaPagina"]= "Diligencia los Datos del Veterinario";
         }
     }
 }

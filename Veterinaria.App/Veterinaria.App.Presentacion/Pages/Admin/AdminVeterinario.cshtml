@@ -3,20 +3,184 @@
 @{
 }
 
-<h1>Diligencia los datos del Administrador</h1>
-<form>
-    <div class="form-group">
-        <label for="id-admin-veterinario-nombre">Nombre</label>
-        <input type="string" class="form-control" id="id-admin-veterinario-nombre" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+<h1>@ViewData["tituloDeLaPagina"]</h1>
+
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                    data-target="#collapseCrudVeterinario" aria-expanded="true" aria-controls="collapseCrudVeterinario">
+                    Crud Veterinario
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseCrudVeterinario" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+
+                <form>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Nombre</label>
+                                    <input type="text" class="form-control" id="id-admin-veterinario-nombre"
+                                        aria-describedby="nombreHelp">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Teléfono</label>
+                                    <input type="tel" class="form-control" id="id-admin-veterinario-telefono"
+                                        aria-describedby="telefonoHelp">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Edad</label>
+                                    <input type="number" class="form-control" id="id-admin-veterinario-edad"
+                                        aria-describedby="edadHelp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">Género</label>
+                                    <select class="form-control" id="id-admin-veterinario-genero">
+                                        <option>Masculino</option>
+                                        <option>Femenino</option>
+                                        <option>Bisexual</option>
+                                        <option>Intersexual</option>
+                                        <option>Pansexual</option>
+                                        <option>Transexual</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Dirección</label>
+                                    <input type="text" class="form-control" id="id-admin-veterinario-direccion"
+                                        aria-describedby="direccionHelp">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Correo</label>
+                                    <input type="email" class="form-control" id="id-admin-veterinario-correo"
+                                        aria-describedby="correoHelp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Contraseña</label>
+                                    <input type="password" class="form-control" id="id-admin-veterinario-contraseña"
+                                        aria-describedby="correoHelp">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Número de Tarjeta Profesional</label>
+                                    <input type="number" class="form-control"
+                                        id="id-admin-veterinario-numeroDeTarejetaProfesional"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect2">Especialización</label>
+                                    <select multiple class="form-control" id="id-admin-veterinario-especializacion">
+                                        <option>Anatomía animal</option>
+                                        <option>Anestesiología veterinaria</option>
+                                        <option>Cardiología veterinaria</option>
+                                        <option>Dermatología veterinaria</option>
+                                        <option>Farmacología</option>
+                                        <option>Fisiología</option>
+                                        <option>Fisioterapia</option>
+                                        <option>Inmunilogía</option>
+                                        <option>Neurología</option>
+                                        <option>Odontología veterinaria</option>
+                                        <option>Oncología</option>
+                                        <option>Toxicología</option>
+                                        <option>Traumatología</option>
+                                        @*darle estilo para minimizar ancho de celda*@
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Agregar Veterinario</button>
+                </form>
+
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseListaVeterinarios" aria-expanded="true"
+                        aria-controls="collapseListaVeterinarios">
+                        Lista Veterinarios
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseListaVeterinarios" class="collapse" aria-labelledby="headingTwo"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                    @*<ul class="list-group">
+
+                        @for (int i = 0; i < 10; i++)
+                        {
+                        <li class="list-group-item">Veterinario @i</li>
+                        }
+
+                        </ul>*@
+
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>

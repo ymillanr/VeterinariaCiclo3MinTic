@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#formulario{
+	
+	background-image: url("https://thumbs.dreamstime.com/b/veterinarios-sonrientes-en-las-capas-blancas-que-caminan-con-los-tableros-cl%C3%ADnica-veterinaria-y-la-mirada-de-uno-129007302.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+    z-index: auto;
+    background-size: cover;
+
+
+}
+
+#formulario2{
+	
+	background-image: url("https://img.freepik.com/foto-gratis/veterinario-examinando-al-perro-clinica_23-2147928369.jpg?size=626&ext=jpg	");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+    z-index: auto;
+    background-size: cover;
+
+
+}
+
+#formulario3{
+	
+	background-image: url("https://previews.123rf.com/images/warrengoldswain/warrengoldswain1706/warrengoldswain170600054/80924177-nuevos-due%C3%B1os-de-mascotas-jugando-con-su-mascota-de-perrito-en-un-d%C3%ADa-soleado-de-verano-estilo-de-vi.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+    z-index: auto;
+    background-size: cover;
+
+
+}
+
+#opciones {
+	background: #24303c;
+	color: white;
+	
+}
+
+.registro{
+	width:400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color:white;
+	box-shadow: 7px 13px 37px #000;
+	
+}
+.registro h4{
+	
+	font-size:22px;
+	margin-bottom: 20px;
+	
+}
+
+.ingreso_datos {
+	
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size:18px;
+	color: white;
+	
+	
+}
+
+.registro .boton{
+	
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	
+}
+
+.registro a{
+	
+	color: #05DBF9;
+	
+}
+
+.registro a:hover{
+	
+	color: white;
+	text-decoration: underline;
+	
+	
+}
+
+.registro2 {
+	padding: 10px;
+}

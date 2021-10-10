@@ -1,0 +1,110 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.AdminCitaModel
+@{
+}
+
+<h1>@ViewData["tituloDeLaPagina"]</h1>
+
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                    data-target="#collapseCrudCitas" aria-expanded="true" aria-controls="collapseCrudCitas">
+                    Crud Citas
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseCrudCitas" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+
+                <form>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputNombre1">Fecha</label>
+                                    <input type="date" class="form-control" id="id-admin-cita-fecha"
+                                        aria-describedby="fechaHelp">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputNombre1">Hora</label>
+                                    <input type="time" step="2" class="form-control" id="id-admin-cita-hora"
+                                        aria-describedby="horaHelp">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputNombre1">Duración</label>
+                                    <input type="text" class="form-control" id="id-admin-cita-duracion"
+                                        aria-describedby="duracionHelp"
+                                        placeholder="Ingrese tiempo y unidad ejm 30 minutos">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Agregar Cita</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseListaCitas" aria-expanded="true" aria-controls="collapseListaCitas">
+                        Historial de Citas
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseListaCitas" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    @*<ul class="list-group">
+
+                        @for (int i = 0; i < 10; i++)
+                        {
+                        <li class="list-group-item">Cita @i</li>
+                        }
+
+                        </ul>*@
+
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>

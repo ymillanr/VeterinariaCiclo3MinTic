@@ -1,0 +1,27 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.LoginModel
+@{
+}
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="Estilos.css">
+	<title>@ViewData["tituloDeLaPagina"]</title>
+</head>
+
+<body id="formulario">
+	<center>
+		<form class="registro" method="post" action="">
+			<h4>Inicio de Sesión</h4><br>
+			<input class="ingreso_datos" type="text" name="usuario" placeholder="Número de documento" required />
+			<input class="ingreso_datos" type="password" name="pass" placeholder="Contraseña" required />
+			<input class="boton" type="submit" value="Ingresar" /><br><br>
+			<h6 class="registro2">Olvidé mi contraseña</h6>
+			<h6 class="registro2">No ha sido registrado? </h6>
+		</form>
+	</center>
+</body>
+
+</html>

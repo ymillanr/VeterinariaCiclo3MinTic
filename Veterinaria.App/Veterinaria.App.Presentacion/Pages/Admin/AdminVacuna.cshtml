@@ -1,0 +1,125 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.AdminVacunaModel
+@{
+}
+
+<h1>@ViewData["tituloDeLaPagina"]</h1>
+
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                    data-target="#collapseCrudVacunas" aria-expanded="true" aria-controls="collapseCrudVacunas">
+                    Crud Vacunas
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseCrudVacunas" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+
+                <form>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputNombre1">Nombre</label>
+                                    <input type="text" class="form-control" id="id-admin-vacuna-nombre"
+                                        aria-describedby="nombreHelp">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputMarca1">Marca</label>
+                                    <input type="text" class="form-control" id="id-admin-vacuna-marca"
+                                        aria-describedby="marcaHelp">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputRegistroInvima1">Registro Invima</label>
+                                    <input type="text" class="form-control" id="id-admin-vacuna-registroinvima"
+                                        aria-describedby="registroinvimaHelp">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="exampleInputNumeroDeDosis1">Numero de Dosis</label>
+                                    <input type="number" class="form-control" id="id-admin-vacuna-numerodedosis"
+                                        aria-describedby="numerodedosisHelp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Agregar Vacuna</button>
+                </form>
+
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseListaVacunas" aria-expanded="true" aria-controls="collapseListaVacunas">
+                        Lista de Vacunas
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseListaVacunas" class="collapse" aria-labelledby="headingTwo"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                    @*<ul class="list-group">
+
+                        @for (int i = 0; i < 10; i++)
+                        {
+                        <li class="list-group-item">Vacuna @i</li>
+                        }
+
+                        </ul>*@
+
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>

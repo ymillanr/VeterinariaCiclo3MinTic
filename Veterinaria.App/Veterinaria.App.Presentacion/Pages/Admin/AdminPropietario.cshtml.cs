@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Veterinaria.App.Presentacion.Pages
 {
-    public class PropietarioModel : PageModel
+    public class AdminPropietarioModel : PageModel
     {
         public void OnGet()
         {
+            ViewData["tituloDeLaPagina"]= "Diligencia los Datos del Propietario de la Mascota";
         }
     }
 }
+

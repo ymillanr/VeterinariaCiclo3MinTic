@@ -1,7 +1,8 @@
 ﻿@page
-@model Veterinaria.App.Presentacion.Pages.AdminAdministradorModel
+@model Veterinaria.App.Presentacion.Pages.AdminPropietarioModel
 @{
 }
+
 <h1>@ViewData["tituloDeLaPagina"]</h1>
 
 <div class="accordion" id="accordionExample">
@@ -9,15 +10,13 @@
         <div class="card-header" id="headingOne">
             <h2 class="mb-0">
                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                    data-target="#collapseCrudAdministrador" aria-expanded="true"
-                    aria-controls="collapseCrudAdministrador">
-                    Crud Administrador
+                    data-target="#collapseCrudPropietario" aria-expanded="true" aria-controls="collapseCrudPropietario">
+                    Crud Propietario de Mascota
                 </button>
             </h2>
         </div>
 
-        <div id="collapseCrudAdministrador" class="collapse" aria-labelledby="headingOne"
-            data-parent="#accordionExample">
+        <div id="collapseCrudPropietario" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
 
                 <form>
@@ -27,21 +26,21 @@
                             <div class="col-sm">
                                 <div class="form-group">
                                     <label for="exampleInputNombre1">Nombre</label>
-                                    <input type="text" class="form-control" id="id-admin-administrador-nombre"
+                                    <input type="text" class="form-control" id="id-admin-propietario-nombre"
                                         aria-describedby="nombreHelp">
                                 </div>
                             </div>
                             <div class="col-sm">
                                 <div class="form-group">
                                     <label for="exampleInputTelefono1">Teléfono</label>
-                                    <input type="tel" class="form-control" id="id-admin-administrador-telefono"
+                                    <input type="tel" class="form-control" id="id-admin-propietario-telefono"
                                         aria-describedby="telefonoHelp">
                                 </div>
                             </div>
                             <div class="col-sm">
                                 <div class="form-group">
                                     <label for="exampleInputEdad1">Edad</label>
-                                    <input type="number" class="form-control" id="id-admin-administrador-edad"
+                                    <input type="number" class="form-control" id="id-admin-propietario-edad"
                                         aria-describedby="edadHelp">
                                 </div>
                             </div>
@@ -53,7 +52,7 @@
                             <div class="col-sm">
                                 <div class="form-group">
                                     <label for="exampleFormControlSelect1">Género</label>
-                                    <select class="form-control" id="id-admin-administrador-genero">
+                                    <select class="form-control" id="id-admin-propietario-genero">
                                         <option>Masculino</option>
                                         <option>Femenino</option>
                                         <option>Bisexual</option>
@@ -66,14 +65,14 @@
                             <div class="col-sm">
                                 <div class="form-group">
                                     <label for="exampleInputDireccion1">Dirección</label>
-                                    <input type="text" class="form-control" id="id-admin-administrador-direccion"
+                                    <input type="text" class="form-control" id="id-admin-propietario-direccion"
                                         aria-describedby="direccionHelp">
                                 </div>
                             </div>
                             <div class="col-sm">
                                 <div class="form-group">
                                     <label for="exampleInputCorreo1">Correo</label>
-                                    <input type="email" class="form-control" id="id-admin-administrador-correo"
+                                    <input type="email" class="form-control" id="id-admin-propietario-correo"
                                         aria-describedby="correoHelp">
                                 </div>
                             </div>
@@ -85,23 +84,22 @@
                             <div class="col-sm">
                                 <div class="form-group">
                                     <label for="exampleInputContraseña1">Contraseña</label>
-                                    <input type="password" class="form-control" id="id-admin-administrador-contraseña"
+                                    <input type="password" class="form-control" id="id-admin-propietario-contraseña"
                                         aria-describedby="contraseñaHelp">
                                 </div>
                             </div>
                             <div class="col-sm">
                                 <div class="form-group">
                                     <label for="exampleInputCargo1">Cargo</label>
-                                    <input type="text" class="form-control" id="id-admin-administrador-cargo"
+                                    <input type="text" class="form-control" id="id-admin-propietario-cargo"
                                         aria-describedby="cargoHelp">
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Agregar Administrador</button>
+                    <button type="submit" class="btn btn-primary">Agregar Propietario</button>
                 </form>
-
             </div>
         </div>
 
@@ -111,21 +109,21 @@
             <div class="card-header" id="headingTwo">
                 <h2 class="mb-0">
                     <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                        data-target="#collapseListaAdministradores" aria-expanded="true"
-                        aria-controls="collapseListaAdministradores">
-                        Lista Administradores
+                        data-target="#collapseListaPropietarios" aria-expanded="true"
+                        aria-controls="collapseListaPropietarios">
+                        Lista de Propietarios de Mascotas
                     </button>
                 </h2>
             </div>
 
-            <div id="collapseListaAdministradores" class="collapse" aria-labelledby="headingTwo"
+            <div id="collapseListaPropietarios" class="collapse" aria-labelledby="headingTwo"
                 data-parent="#accordionExample">
                 <div class="card-body">
                     @*<ul class="list-group">
 
                         @for (int i = 0; i < 10; i++)
                         {
-                        <li class="list-group-item">Administrador @i</li>
+                        <li class="list-group-item">Propietario @i</li>
                         }
 
                         </ul>*@

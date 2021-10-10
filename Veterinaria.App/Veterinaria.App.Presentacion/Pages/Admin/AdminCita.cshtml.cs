@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Veterinaria.App.Presentacion.Pages
 {
-    public class AdminAdministradorModel : PageModel
+    public class AdminCitaModel : PageModel
     {
         public void OnGet()
         {
-            ViewData["tituloDeLaPagina"]= "Diligencia los Datos del Administrador";
+            ViewData["tituloDeLaPagina"]= "Registro de Citas";
         }
     }
 }
